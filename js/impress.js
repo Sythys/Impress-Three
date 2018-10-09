@@ -18,6 +18,8 @@
  *  source:  http://github.com/impress/impress.js/
  */
 
+let GlobalDuration = 300;
+let currentState = null;
 // You are one of those who like to know how things work inside?
 // Let me show you the cogs that make impress.js run...
 ( function( document, window ) {
@@ -168,14 +170,14 @@
 
     // Some default config values.
     var defaults = {
-        width: 1024,
-        height: 768,
+        width: 1920,
+        height: 1080,
         maxScale: 1,
         minScale: 0,
 
         perspective: 1000,
 
-        transitionDuration: 1000
+        transitionDuration: GlobalDuration
     };
 
     // It's just an empty function ... and a useless comment.
@@ -224,7 +226,7 @@
         var activeStep = null;
 
         // Current state (position, rotation and scale) of the presentation
-        var currentState = null;
+        //var currentState = null;
 
         // Array of step elements
         var steps = null;
@@ -2401,6 +2403,7 @@
 
                 // 82: R
                 registerKeyEvent( [ 82 ], timerReset );
+
 
                 // Cleanup
                 consoleWindow.onbeforeunload = function() {
