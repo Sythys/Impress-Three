@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5656e19f-d979-4ef5-9e81-43be665de30b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/impree.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -18,7 +19,7 @@
     <session id="903210889">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="8" />
@@ -30,16 +31,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="20" />
-          <entry key="html" value="7484" />
-          <entry key="js" value="376" />
+          <entry key="html" value="7949" />
+          <entry key="js" value="551" />
           <entry key="md" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="20" />
-          <entry key="HTML" value="7484" />
-          <entry key="JavaScript" value="376" />
+          <entry key="HTML" value="7949" />
+          <entry key="JavaScript" value="551" />
           <entry key="Markdown" value="101" />
         </counts>
       </usages-collector>
@@ -47,7 +48,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="gltf" value="2" />
-          <entry key="js" value="4" />
+          <entry key="js" value="5" />
           <entry key="json" value="3" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
@@ -58,7 +59,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="TypeScript" value="1" />
@@ -74,11 +75,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="1652">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,22 +88,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3416">
+            <state relative-caret-position="787">
               <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/impress.js">
+        <entry file="file://$PROJECT_DIR$/js/impree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14392">
-              <caret line="514" column="25" selection-start-line="514" selection-start-column="25" selection-end-line="514" selection-end-column="25" />
+            <state relative-caret-position="308">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -148,6 +156,7 @@
         <option value="$PROJECT_DIR$/css/impress-demo.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/impress.js" />
+        <option value="$PROJECT_DIR$/js/impree.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -192,13 +201,12 @@
             <path>
               <item name="RootPresentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="RootPresentation" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RootPresentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="RootPresentation" type="462c0819:PsiDirectoryNode" />
               <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +257,12 @@
       <workItem from="1539105779007" duration="254000" />
       <workItem from="1539107360167" duration="21343000" />
       <workItem from="1539136929685" duration="250000" />
-      <workItem from="1539162924761" duration="481000" />
+      <workItem from="1539162924761" duration="7472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65764000" />
+    <option name="totallyTimeSpent" value="72755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="433" y="0" width="2134" height="1057" extended-state="0" />
@@ -326,28 +334,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/impress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="224">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="e#87#91#1" expanded="true" />
+            <element signature="e#83#87#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3416">
+        <state relative-caret-position="787">
           <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/impress.js">
+    <entry file="file://$PROJECT_DIR$/js/impree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14392">
-          <caret line="514" column="25" selection-start-line="514" selection-start-column="25" selection-end-line="514" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
