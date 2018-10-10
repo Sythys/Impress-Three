@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5656e19f-d979-4ef5-9e81-43be665de30b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/impress.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/impress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/three/models/plane.bin" beforeDir="false" afterPath="$PROJECT_DIR$/three/models/plane.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/three/models/plane.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/three/models/plane.gltf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="139" column="100" selection-start-line="139" selection-start-column="100" selection-end-line="139" selection-end-column="100" />
+            <state relative-caret-position="392">
+              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
@@ -86,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -99,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/js/impress.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
                 <element signature="e#87#91#1" expanded="true" />
                 <element signature="e#83#87#1" expanded="true" />
@@ -153,8 +149,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/impress-demo.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/impress.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -253,12 +249,12 @@
       <workItem from="1538927394310" duration="2498000" />
       <workItem from="1538929936292" duration="1256000" />
       <workItem from="1539105779007" duration="254000" />
-      <workItem from="1539107360167" duration="18628000" />
+      <workItem from="1539107360167" duration="18890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62318000" />
+    <option name="totallyTimeSpent" value="62580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="433" y="0" width="2134" height="1057" extended-state="0" />
@@ -325,7 +321,7 @@
     <entry file="file://$PROJECT_DIR$/js/impress.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
             <element signature="e#87#91#1" expanded="true" />
             <element signature="e#83#87#1" expanded="true" />
@@ -343,22 +339,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="139" column="100" selection-start-line="139" selection-start-column="100" selection-end-line="139" selection-end-column="100" />
+        <state relative-caret-position="392">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
