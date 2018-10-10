@@ -9,7 +9,7 @@
 </head>
 <body id="background">
 <div id="data" style="position: fixed; top: 10px; left: 10px;"></div>
-<div id="impress">
+<div id="impress" data-autoplay="0.1">
 
 
     <div class="step" data-x="0" data-y="0" data-z="0" data-scale="1"><p>lul*</p></div>
@@ -112,7 +112,7 @@
         stateB = currentState;
         // Step = false;
         if((stateA !== stateB) && (Step)) {
-            deltaA = Date.now();
+            deltaA = Date.now() - 19;
             Step = false;
         }
         deltaProgress = ((delta-deltaA)/GlobalDuration);
@@ -135,9 +135,9 @@
         state[1] = stateA.translate.y + (( stateB.translate.y - stateA.translate.y ) * deltaProgress);
         state[2] = stateA.translate.z + (( stateB.translate.z - stateA.translate.z ) * deltaProgress);
 
-        state[0] -= (-1.29)*(Math.sin(state[4]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )))/translationScale;
-        state[1] += (-1.29)*(Math.sin(state[3]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )))/translationScale;
-        state[2] += (-1.29)*(Math.cos(state[3]*Math.PI/180)*Math.cos(state[4]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )))/translationScale;
+        state[0] -= (-1.29)*(Math.sin(state[4]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )* deltaProgress))/translationScale;
+        state[1] += (-1.29)*(Math.sin(state[3]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )* deltaProgress))/translationScale;
+        state[2] += (-1.29)*(Math.cos(state[3]*Math.PI/180)*Math.cos(state[4]*Math.PI/180))*(1/(stateA.scale + ( stateB.scale - stateA.scale )* deltaProgress))/translationScale;
 
         camera.position.set(state[0]*(-1)*translationScale,state[1]*translationScale,state[2]*(-1)*translationScale);
         camera.rotation.set(state[3]*Math.PI/180, state[4]*(-1)*Math.PI/180,state[5]*Math.PI/180);

@@ -512,7 +512,7 @@ let currentState = null;
             var zoomin = target.scale >= currentState.scale;
 
             duration = lib.util.toNumber( duration, config.transitionDuration );
-            var delay = ( duration / 2 );
+            var delay = 0;
 
             // If the same step is re-selected, force computing window scaling,
             // because it is likely to be caused by window resize
