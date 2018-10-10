@@ -18,7 +18,7 @@
  *  source:  http://github.com/impress/impress.js/
  */
 
-let GlobalDuration = 300;
+let GlobalDuration = 700;
 let currentState = null;
 // You are one of those who like to know how things work inside?
 // Let me show you the cogs that make impress.js run...
@@ -175,7 +175,7 @@ let currentState = null;
         maxScale: 1,
         minScale: 0,
 
-        perspective: 1000,
+        perspective: 989,
 
         transitionDuration: GlobalDuration
     };
@@ -370,7 +370,7 @@ let currentState = null;
             var rootStyles = {
                 position: "absolute",
                 transformOrigin: "top left",
-                transition: "all 0s ease-in-out",
+                transition: "all 0s cubic-bezier(0.42,0,0.58,1)",
                 transformStyle: "preserve-3d"
             };
 
